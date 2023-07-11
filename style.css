@@ -1,0 +1,142 @@
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+    
+}
+.box{
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(to right , aqua, rgb(211, 49, 49));
+    border-radius: 10px;
+    height: fit-content;
+}
+#head{
+    height:fit-content;
+    width: 100%;
+    background-image:linear-gradient(to right ,black, silver) ;
+    border-radius: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+}
+#name, #hobbies{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    margin-left: 2%;
+    
+
+}
+#dp{
+    height: 150px;
+    width: 150px;
+    margin-top: 13px;
+    margin-left: 50px;
+    border-radius: 82px;
+
+}
+#personal-head, #skill-head,#project-head ,#address-head,#form-head{
+    font-family: 'Belanosima', sans-serif;
+    margin-left: 11px;
+    margin-top: 8px;
+}
+
+
+
+
+.skill-item{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    margin-left: 11px;
+    margin-top: 8px; 
+}
+#java-png img{
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-top: -26px;
+    margin-left: 130px;
+    border-radius: 100%;
+}
+
+
+#c-png img{
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-top: -26px;
+    margin-left: 131px;
+    border-radius: 100%;
+}
+
+
+#html-png img{
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-top: -26px;
+    margin-left: 131px;
+    border-radius: 100%;
+}
+
+#css-png img{
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-top: -26px;
+    margin-left: 131px;
+    border-radius: 100%;
+}
+
+
+#js-png img{
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-top: -26px;
+    margin-left: 131px;
+    border-radius: 100%;
+}
+
+
+#bootstrap-png img{
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-top: -26px;
+    margin-left: 131px;
+    border-radius: 100%;
+}
+
+a:hover{
+font-style: italic;
+}
+a{
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    margin-left: 10px;
+}
+address,.address{
+    margin-left: 10px;
+    font-family: 'Lobster', cursive;
+}
+#linkedin-logo{
+    height: 30px;
+    width: 30px;
+    margin-top: -1px;
+    margin-left: 12px;
+}
+#phone{
+    margin-left: 10px;
+}
+
+
+#form-content{
+    margin-left: 10px;
+}
+
+#submit{
+    margin-bottom: 5px;
+    margin-left: 97px;
+}
